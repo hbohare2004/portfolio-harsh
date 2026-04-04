@@ -7,11 +7,11 @@ import { HiMenuAlt3, HiX } from "react-icons/hi";
 const navLinks = [
   { name: "Home", href: "#home" },
   { name: "About", href: "#about" },
-  { name: "Skills", href: "#skills" },
+  // { name: "Skills", href: "#skills" },
   { name: "Projects", href: "#projects" },
-  { name: "Experience", href: "#experience" },
+  // { name: "Experience", href: "#experience" },
   { name: "GitHub", href: "#github" },
-  { name: "LeetCode", href: "#leetcode" },
+  // { name: "LeetCode", href: "#leetcode" },
   { name: "Resume", href: "#resume" },
   { name: "Contact", href: "#contact" },
 ];

@@ -48,11 +48,11 @@ export default function Hero() {
                 sequence={[
                   "Full Stack Developer",
                   2000,
-                  "Java Developer",
+                  "MERN Stack Developer",
                   2000,
                   "Problem Solver",
                   2000,
-                  "Backend Specialist",
+                  "Building Real-World Solutions",
                   2000,
                 ]}
                 wrapper="span"

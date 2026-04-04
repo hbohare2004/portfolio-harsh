@@ -28,7 +28,7 @@ export default function LoadingScreen() {
           >
             <div className="absolute -inset-8 rounded-full bg-gradient-to-r from-blue-500/20 to-purple-500/20 blur-2xl animate-pulse" />
             <h1 className="relative text-4xl sm:text-5xl font-bold bg-gradient-to-r from-blue-400 via-purple-400 to-indigo-400 bg-clip-text text-transparent">
-              HB
+              Harsh's Portfolio
             </h1>
           </motion.div>
 
