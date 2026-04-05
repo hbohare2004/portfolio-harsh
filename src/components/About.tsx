@@ -14,7 +14,8 @@ const highlights = [
   {
     icon: HiCode,
     title: "Backend",
-    desc: "Java, JSP, Servlets, JDBC, Spring",
+    desc: "Node.js, Express.js, MongoDB, REST APIs, Authentication"
+    ,
   },
   {
     icon: HiGlobe,
