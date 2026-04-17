@@ -82,9 +82,9 @@ export default function Experience() {
 
                 <div className={`flex-1 ml-10 sm:ml-12 md:ml-0 ${i % 2 === 0 ? "md:pr-12 md:text-right" : "md:pl-12"}`}>
                   <div
-                    className={`p-4 sm:p-6 rounded-2xl bg-white/[0.03] border border-white/[0.06] hover:border-purple-500/30 transition-all duration-300 group text-center md:text-left`}
+                    className={`p-4 sm:p-6 rounded-2xl bg-white/[0.03] border border-white/[0.06] hover:border-purple-500/30 transition-all duration-300 group text-left ${i % 2 === 0 ? "md:text-right" : ""}`}
                   >
-                    <div className={`flex items-start sm:items-center justify-center md:justify-start gap-2 mb-2 text-purple-400 ${i % 2 === 0 ? "md:justify-end" : ""}`}>
+                    <div className={`flex items-start sm:items-center justify-start gap-2 mb-2 text-purple-400 ${i % 2 === 0 ? "md:justify-end" : ""}`}>
                       <HiBriefcase className="w-4 h-4 flex-shrink-0 mt-0.5 sm:mt-0" />
                       <span className="font-semibold text-base sm:text-lg text-white">
                         {exp.title}
@@ -95,7 +95,7 @@ export default function Experience() {
                       {exp.company}
                     </p>
 
-                    <div className={`flex flex-wrap justify-center md:justify-start gap-2 sm:gap-3 text-xs sm:text-sm text-gray-400 mb-3 sm:mb-4 ${i % 2 === 0 ? "md:justify-end" : ""}`}>
+                    <div className={`flex flex-wrap justify-start gap-2 sm:gap-3 text-xs sm:text-sm text-gray-400 mb-3 sm:mb-4 ${i % 2 === 0 ? "md:justify-end" : ""}`}>
                       <span className="flex items-center gap-1">
                         <HiLocationMarker className="w-3.5 h-3.5" />
                         {exp.location}
