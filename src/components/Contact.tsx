@@ -89,10 +89,10 @@ export default function Contact() {
             initial={{ opacity: 0, x: -40 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.7, delay: 0.2 }}
-            className="space-y-6 sm:space-y-8"
+            className="space-y-6 sm:space-y-8 text-center lg:text-left"
           >
             <div className="space-y-5 sm:space-y-6">
-              <div className="flex items-start gap-4">
+              <div className="flex items-start justify-center lg:justify-start gap-4">
                 <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-purple-500/10 border border-purple-500/20 flex items-center justify-center flex-shrink-0">
                   <HiMail className="w-5 h-5 text-purple-400" />
                 </div>
@@ -106,7 +106,7 @@ export default function Contact() {
                 </div>
               </div>
 
-              <div className="flex items-start gap-4">
+              <div className="flex items-start justify-center lg:justify-start gap-4">
                 <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-green-500/10 border border-green-500/20 flex items-center justify-center flex-shrink-0">
                   <FaWhatsapp className="w-5 h-5 text-green-400" />
                 </div>
@@ -118,7 +118,7 @@ export default function Contact() {
                 </div>
               </div>
 
-              <div className="flex items-start gap-4">
+              <div className="flex items-start justify-center lg:justify-start gap-4">
                 <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-blue-500/10 border border-blue-500/20 flex items-center justify-center flex-shrink-0">
                   <HiLocationMarker className="w-5 h-5 text-blue-400" />
                 </div>
@@ -135,7 +135,7 @@ export default function Contact() {
               <h3 className="text-white font-semibold mb-4 text-sm sm:text-base">
                 Connect with me
               </h3>
-              <div className="flex gap-3">
+              <div className="flex justify-center lg:justify-start gap-3">
                 {socials.map((social) => (
                   <a
                     key={social.name}

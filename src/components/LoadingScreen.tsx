@@ -18,7 +18,7 @@ export default function LoadingScreen() {
           initial={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.5 }}
-          className="fixed inset-0 z-[100] bg-[#050510] flex flex-col items-center justify-center"
+          className="fixed inset-0 z-[100] bg-[#050510] flex flex-col items-center justify-center px-4"
         >
           <motion.div
             initial={{ scale: 0.8, opacity: 0 }}
@@ -27,7 +27,7 @@ export default function LoadingScreen() {
             className="relative"
           >
             <div className="absolute -inset-8 rounded-full bg-gradient-to-r from-blue-500/20 to-purple-500/20 blur-2xl animate-pulse" />
-            <h1 className="relative text-4xl sm:text-5xl font-bold bg-gradient-to-r from-blue-400 via-purple-400 to-indigo-400 bg-clip-text text-transparent">
+            <h1 className="relative text-center text-2xl sm:text-5xl font-bold leading-tight bg-gradient-to-r from-blue-400 via-purple-400 to-indigo-400 bg-clip-text text-transparent">
               Harsh's Portfolio
             </h1>
           </motion.div>

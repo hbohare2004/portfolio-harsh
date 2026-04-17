@@ -33,8 +33,8 @@ export default function Resume() {
           className="max-w-4xl mx-auto"
         >
           <div className="relative rounded-2xl bg-white/[0.03] border border-white/[0.06] overflow-hidden">
-            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 p-4 border-b border-white/[0.06]">
-              <div className="flex items-center gap-3">
+            <div className="flex flex-col sm:flex-row items-center sm:items-center justify-between gap-3 p-4 border-b border-white/[0.06] text-center sm:text-left">
+              <div className="flex items-center justify-center sm:justify-start gap-3">
                 <HiDocumentText className="w-5 h-5 text-purple-400 flex-shrink-0" />
                 <span className="text-white font-medium text-sm sm:text-base truncate">
                   Harsh_s_Resume.pdf

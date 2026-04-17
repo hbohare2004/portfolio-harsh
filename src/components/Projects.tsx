@@ -95,7 +95,7 @@ export default function Projects() {
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a1a] via-[#0a0a1a]/40 to-transparent" />
               </div>
 
-              <div className="p-5 sm:p-6 space-y-3 sm:space-y-4">
+              <div className="p-5 sm:p-6 space-y-3 sm:space-y-4 text-center md:text-left">
                 <div>
                   <h3 className="text-lg sm:text-xl font-bold text-white group-hover:text-purple-300 transition-colors">
                     {project.title}
@@ -109,7 +109,7 @@ export default function Projects() {
                   {project.description}
                 </p>
 
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap justify-center md:justify-start gap-2">
                   {project.tech.map((t) => (
                     <span
                       key={t.name}
@@ -122,7 +122,7 @@ export default function Projects() {
                 </div>
 
                 {project.live && (
-                  <div className="pt-1">
+                  <div className="pt-1 flex justify-center md:justify-start">
                     <a
                       href={project.live}
                       target="_blank"

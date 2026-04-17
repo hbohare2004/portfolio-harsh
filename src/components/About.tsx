@@ -56,7 +56,7 @@ export default function About() {
             initial={{ opacity: 0, x: -40 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.7, delay: 0.2 }}
-            className="space-y-6"
+            className="space-y-6 text-center lg:text-left"
           >
             <p className="text-gray-300 text-sm sm:text-base lg:text-lg leading-relaxed">
               I&apos;m a <span className="text-white font-medium">B.Tech Computer Science</span> student
@@ -93,9 +93,9 @@ export default function About() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={inView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.5, delay: 0.5 + i * 0.1 }}
-                className="group p-5 rounded-2xl bg-white/[0.03] border border-white/[0.06] hover:border-purple-500/30 hover:bg-purple-500/[0.05] transition-all duration-300"
+                className="group p-5 rounded-2xl bg-white/[0.03] border border-white/[0.06] hover:border-purple-500/30 hover:bg-purple-500/[0.05] transition-all duration-300 text-center sm:text-left"
               >
-                <item.icon className="w-8 h-8 text-purple-400 mb-3 group-hover:scale-110 transition-transform" />
+                <item.icon className="w-8 h-8 text-purple-400 mb-3 mx-auto sm:mx-0 group-hover:scale-110 transition-transform" />
                 <h3 className="text-white font-semibold mb-1">{item.title}</h3>
                 <p className="text-gray-400 text-sm">{item.desc}</p>
               </motion.div>

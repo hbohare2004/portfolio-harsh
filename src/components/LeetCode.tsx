@@ -50,10 +50,10 @@ export default function LeetCode() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="max-w-3xl mx-auto"
         >
-          <div className="relative p-5 sm:p-8 rounded-2xl bg-white/[0.03] border border-white/[0.06] hover:border-purple-500/30 transition-all duration-300 overflow-hidden">
+          <div className="relative p-5 sm:p-8 rounded-2xl bg-white/[0.03] border border-white/[0.06] hover:border-purple-500/30 transition-all duration-300 overflow-hidden text-center">
             <div className="absolute top-0 right-0 w-40 h-40 bg-gradient-to-bl from-orange-500/10 to-transparent rounded-bl-full" />
 
-            <div className="flex items-center gap-3 sm:gap-4 mb-6 sm:mb-8">
+            <div className="flex items-center justify-center gap-3 sm:gap-4 mb-6 sm:mb-8">
               <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl bg-gradient-to-br from-orange-500/20 to-yellow-500/20 border border-orange-500/20 flex items-center justify-center flex-shrink-0">
                 <SiLeetcode className="w-6 h-6 sm:w-7 sm:h-7 text-orange-400" />
               </div>
@@ -91,15 +91,17 @@ export default function LeetCode() {
 
 
 
-            <a
-              href="https://leetcode.com/u/harshbohare007/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-5 sm:px-6 py-2.5 sm:py-3 rounded-xl bg-gradient-to-r from-orange-500 to-yellow-500 text-white font-medium hover:shadow-lg hover:shadow-orange-500/25 transition-all text-sm sm:text-base"
-            >
-              View LeetCode Profile
-              <HiExternalLink className="w-4 h-4" />
-            </a>
+            <div className="flex justify-center">
+              <a
+                href="https://leetcode.com/u/harshbohare007/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-5 sm:px-6 py-2.5 sm:py-3 rounded-xl bg-gradient-to-r from-orange-500 to-yellow-500 text-white font-medium hover:shadow-lg hover:shadow-orange-500/25 transition-all text-sm sm:text-base"
+              >
+                View LeetCode Profile
+                <HiExternalLink className="w-4 h-4" />
+              </a>
+            </div>
           </div>
         </motion.div>
       </div>

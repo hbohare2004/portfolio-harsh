@@ -102,9 +102,9 @@ export default function GitHub() {
               initial={{ opacity: 0, y: 20 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.5, delay: 0.1 + i * 0.08 }}
-              className="group p-4 sm:p-5 rounded-2xl bg-white/[0.03] border border-white/[0.06] hover:border-purple-500/30 hover:bg-purple-500/[0.03] transition-all duration-300"
+              className="group p-4 sm:p-5 rounded-2xl bg-white/[0.03] border border-white/[0.06] hover:border-purple-500/30 hover:bg-purple-500/[0.03] transition-all duration-300 text-center sm:text-left"
             >
-              <div className="flex items-start justify-between mb-3">
+              <div className="flex items-start justify-between sm:justify-between mb-3">
                 <div className="flex items-center gap-2 min-w-0">
                   <HiCode className="w-4 h-4 text-purple-400 flex-shrink-0" />
                   <span className="text-white font-semibold text-sm sm:text-base group-hover:text-purple-300 transition-colors truncate">
@@ -118,7 +118,7 @@ export default function GitHub() {
                 {repo.description}
               </p>
 
-              <div className="flex items-center gap-4 text-xs text-gray-500">
+              <div className="flex items-center justify-center sm:justify-start gap-4 text-xs text-gray-500">
                 <span className="flex items-center gap-1.5">
                   <span
                     className="w-2.5 h-2.5 rounded-full"
