@@ -1,6 +1,6 @@
 "use client";
 
-import { SiGithub, SiX } from "react-icons/si";
+import { SiGithub, SiX, SiInstagram } from "react-icons/si";
 import { FaLinkedinIn } from "react-icons/fa";
 import { HiHeart } from "react-icons/hi";
 
@@ -19,6 +19,11 @@ const socials = [
     icon: SiX,
     href: "https://x.com/hbohare007",
     label: "Twitter/X",
+  },
+  {
+    icon: SiInstagram,
+    href: "https://www.instagram.com/harshh_bohare/",
+    label: "Instagram",
   },
 ];
 

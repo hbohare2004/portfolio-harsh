@@ -16,8 +16,9 @@ import {
   SiGithub,
   SiDocker,
   SiFigma,
+  SiPostman,
 } from "react-icons/si";
-import { FaJava } from "react-icons/fa";
+import { FaJava, FaBrain } from "react-icons/fa";
 
 const skills = [
   { name: "Java", icon: FaJava, color: "#f89820" },
@@ -34,6 +35,8 @@ const skills = [
   { name: "GitHub", icon: SiGithub, color: "#ffffff" },
   { name: "Docker", icon: SiDocker, color: "#2496ED" },
   { name: "Figma", icon: SiFigma, color: "#F24E1E" },
+  { name: "Machine Learning", icon: FaBrain, color: "#9C27B0" },
+  { name: "Postman", icon: SiPostman, color: "#FF6C37" },
 ];
 
 function SkillBubble({

@@ -8,7 +8,7 @@ import {
   HiPaperAirplane,
 } from "react-icons/hi";
 import { FaWhatsapp } from "react-icons/fa";
-import { SiGithub, SiX } from "react-icons/si";
+import { SiGithub, SiX, SiInstagram } from "react-icons/si";
 import { FaLinkedinIn } from "react-icons/fa";
 
 const WHATSAPP_NUMBER = "918109016036";
@@ -31,6 +31,12 @@ const socials = [
     icon: SiX,
     href: "https://x.com/hbohare007",
     color: "hover:text-sky-400 hover:border-sky-400/30",
+  },
+  {
+    name: "Instagram",
+    icon: SiInstagram,
+    href: "https://www.instagram.com/harshh_bohare/",
+    color: "hover:text-pink-500 hover:border-pink-500/30",
   },
 ];
 

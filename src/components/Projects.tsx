@@ -10,6 +10,10 @@ import {
   SiNodedotjs,
   SiExpress,
   SiMongodb,
+  SiSupabase,
+  SiStripe,
+  SiFramer,
+  SiGithub,
 } from "react-icons/si";
 import Image from "next/image";
 
@@ -26,10 +30,30 @@ const projects = [
       { name: "Tailwind", icon: SiTailwindcss },
     ],
     live: "https://raginnovations.com",
+    github: "https://github.com/hbohare2004/Rag-Innovation",
     gradient: "from-blue-500/20 to-purple-500/20",
     borderGlow: "hover:shadow-blue-500/10",
   },
+
+ 
   {
+    title: "Cottorin",
+    subtitle: "Sanitaryware E-Commerce Website",
+    description:
+      "A modern full-stack e-commerce website built with Next.js 14, Supabase, and Stripe. Features product catalog, shopping cart, secure checkout, and an admin panel.",
+    image: "/images/e-comm.png",
+    tech: [
+      { name: "Next.js", icon: SiNextdotjs },
+      { name: "Supabase", icon: SiSupabase },
+      { name: "Stripe", icon: SiStripe },
+      { name: "Tailwind", icon: SiTailwindcss },
+    ],
+    live: "https://e-comm-rag-rxy8.vercel.app/",
+    github: "https://github.com/hbohare2004/E-Comm-Rag-",
+    gradient: "from-emerald-500/20 to-cyan-500/20",
+    borderGlow: "hover:shadow-emerald-500/10",
+  },
+   {
     title: "Nivasa",
     subtitle: "Airbnb-style Full Stack App",
     description:
@@ -41,8 +65,25 @@ const projects = [
       { name: "MongoDB", icon: SiMongodb },
     ],
     live: "https://airbnd-b8zk.onrender.com/listings",
+    github: "https://github.com/hbohare2004/Airbnd",
     gradient: "from-purple-500/20 to-pink-500/20",
     borderGlow: "hover:shadow-purple-500/10",
+  },
+  {
+    title: "Real Estate One",
+    subtitle: "Premium Real Estate Landing Page",
+    description:
+      "A clean, modern real estate landing page built with React and Tailwind CSS. Features smooth Framer Motion animations, responsive design, and interactive UI elements.",
+    image: "/images/Estate.png",
+    tech: [
+      { name: "React", icon: SiReact },
+      { name: "Tailwind", icon: SiTailwindcss },
+      { name: "Framer", icon: SiFramer },
+    ],
+    live: "https://real-estateone.netlify.app/",
+    github: "https://github.com/hbohare2004/Estate",
+    gradient: "from-orange-500/20 to-red-500/20",
+    borderGlow: "hover:shadow-orange-500/10",
   },
 ];
 
@@ -121,8 +162,8 @@ export default function Projects() {
                   ))}
                 </div>
 
-                {project.live && (
-                  <div className="pt-1 flex justify-center md:justify-start">
+                <div className="pt-1 flex flex-wrap justify-center md:justify-start gap-4">
+                  {project.live && (
                     <a
                       href={project.live}
                       target="_blank"
@@ -132,8 +173,19 @@ export default function Projects() {
                       <HiExternalLink className="w-4 h-4" />
                       Live Site
                     </a>
-                  </div>
-                )}
+                  )}
+                  {'github' in project && project.github && (
+                    <a
+                      href={project.github as string}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 text-sm text-gray-400 hover:text-gray-300 transition-colors"
+                    >
+                      <SiGithub className="w-4 h-4" />
+                      GitHub
+                    </a>
+                  )}
+                </div>
               </div>
             </motion.div>
           ))}
