@@ -50,7 +50,7 @@ export default function Hero() {
                   2000,
                   "MERN Stack Developer",
                   2000,
-                  "Problem Solver",
+                  "Gen AI Engineer",
                   2000,
                   "Building Real-World Solutions",
                   2000,
@@ -65,8 +65,8 @@ export default function Hero() {
             <p className="text-gray-400 text-sm sm:text-base lg:text-lg max-w-xl leading-relaxed">
               Computer Science student passionate about building scalable web
               applications and solving real-world problems. Experienced in
-              backend development, modern frontend technologies, and full-stack
-              project development.
+              backend development, Retrieval-Augmented Generation (RAG) applications,
+              modern frontend technologies, and full-stack project development.
             </p>
 
             <div className="flex flex-wrap gap-4 pt-2">

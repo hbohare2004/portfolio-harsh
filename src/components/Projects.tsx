@@ -14,7 +14,10 @@ import {
   SiStripe,
   SiFramer,
   SiGithub,
+  SiStreamlit,
+  SiPython,
 } from "react-icons/si";
+import { FaBrain } from "react-icons/fa";
 import Image from "next/image";
 
 const projects = [
@@ -35,7 +38,22 @@ const projects = [
     borderGlow: "hover:shadow-blue-500/10",
   },
 
- 
+  {
+    title: "RAG Innovations Chatbot",
+    subtitle: "Retrieval-Augmented Chatbot",
+    description:
+      "An intelligent chatbot powered by Retrieval-Augmented Generation (RAG). It enables interactive document querying and provides context-aware answers to user inquiries.",
+    image: "/images/RagAI.png",
+    tech: [
+      { name: "Streamlit", icon: SiStreamlit },
+      { name: "Python", icon: SiPython },
+      { name: "Groq AI", icon: FaBrain },
+    ],
+    live: "https://rag-innovations-chatbot-zc7gxf5zuxjgixbnzgkk8x.streamlit.app/",
+    github: "https://github.com/hbohare2004/RAG-Innovations-Chatbot",
+    gradient: "from-orange-500/20 to-red-500/20",
+    borderGlow: "hover:shadow-orange-500/10",
+  },
   {
     title: "Cottorin",
     subtitle: "Sanitaryware E-Commerce Website",
@@ -69,22 +87,7 @@ const projects = [
     gradient: "from-purple-500/20 to-pink-500/20",
     borderGlow: "hover:shadow-purple-500/10",
   },
-  {
-    title: "Real Estate One",
-    subtitle: "Premium Real Estate Landing Page",
-    description:
-      "A clean, modern real estate landing page built with React and Tailwind CSS. Features smooth Framer Motion animations, responsive design, and interactive UI elements.",
-    image: "/images/Estate.png",
-    tech: [
-      { name: "React", icon: SiReact },
-      { name: "Tailwind", icon: SiTailwindcss },
-      { name: "Framer", icon: SiFramer },
-    ],
-    live: "https://real-estateone.netlify.app/",
-    github: "https://github.com/hbohare2004/Estate",
-    gradient: "from-orange-500/20 to-red-500/20",
-    borderGlow: "hover:shadow-orange-500/10",
-  },
+  
 ];
 
 export default function Projects() {

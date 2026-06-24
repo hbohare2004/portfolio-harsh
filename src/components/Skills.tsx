@@ -17,6 +17,7 @@ import {
   SiDocker,
   SiFigma,
   SiPostman,
+  SiOpenai,
 } from "react-icons/si";
 import { FaJava, FaBrain } from "react-icons/fa";
 
@@ -48,6 +49,7 @@ const skills = [
 
   // Other Skills
   { name: "Machine Learning", icon: FaBrain, color: "#9C27B0" },
+  { name: "Generative AI", icon: SiOpenai, color: "#10a37f" },
 ];
 
 function SkillBubble({

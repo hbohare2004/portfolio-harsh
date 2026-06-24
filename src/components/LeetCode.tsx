@@ -14,9 +14,9 @@ import { SiLeetcode } from "react-icons/si";
 
 
 const difficultyStats = [
-  { label: "Easy", count: 138, color: "text-green-400", bg: "bg-green-400/10", border: "border-green-400/20" },
-  { label: "Medium", count: 86, color: "text-yellow-400", bg: "bg-yellow-400/10", border: "border-yellow-400/20" },
-  { label: "Hard", count: 2, color: "text-red-400", bg: "bg-red-400/10", border: "border-red-400/20" },
+  { label: "Easy", count: 140, color: "text-green-400", bg: "bg-green-400/10", border: "border-green-400/20" },
+  { label: "Medium", count: 93, color: "text-yellow-400", bg: "bg-yellow-400/10", border: "border-yellow-400/20" },
+  { label: "Hard", count: 3, color: "text-red-400", bg: "bg-red-400/10", border: "border-red-400/20" },
 ];
 
 export default function LeetCode() {

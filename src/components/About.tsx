@@ -64,7 +64,7 @@ export default function About() {
               My journey in software development started with a deep dive into{" "}
               <span className="text-purple-400 font-medium">MERN stack development</span> — mastering
               MongoDB, Express.js, React, and Node.js — and has since expanded into the world of
-              modern full-stack development.
+              modern full-stack development, <span className="text-blue-400 font-medium">Generative AI</span>, and <span className="text-indigo-400 font-medium">RAG (Retrieval-Augmented Generation)</span> systems.
             </p>
             <p className="text-gray-300 text-sm sm:text-base lg:text-lg leading-relaxed">
               I specialize in building{" "}

@@ -14,6 +14,14 @@ const repos = [
     stars: 0,
     url: "https://github.com/hbohare2004/Rag-Innovation",
   },
+   {
+    name: "Estate",
+    description:
+      "Real estate website built with React, Vite, Tailwind CSS and Framer Motion, featuring dark mode, animations, and fully responsive sections.",
+    language: "JavaScript",
+    stars: 1,
+    url: "https://github.com/hbohare2004/Estate",
+  },
   {
     name: "Airbnd (Nivasa)",
     description:
@@ -22,14 +30,7 @@ const repos = [
     stars: 1,
     url: "https://github.com/hbohare2004/Airbnd",
   },
-  {
-    name: "Estate",
-    description:
-      "Real estate website built with React, Vite, Tailwind CSS and Framer Motion, featuring dark mode, animations, and fully responsive sections.",
-    language: "JavaScript",
-    stars: 1,
-    url: "https://github.com/hbohare2004/Estate",
-  },
+ 
   
   // {
   //   name: "NITTTR_intern_page",
