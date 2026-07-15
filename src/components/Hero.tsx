@@ -87,7 +87,7 @@ export default function Hero() {
               <motion.a
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                href="/images/Harsh_s_Resume.pdf"
+                href="/images/Harsh_s_Resume_AI.pdf"
                 download
                 className="flex items-center gap-2 px-5 sm:px-6 py-2.5 sm:py-3 rounded-xl border border-purple-500/30 text-purple-300 hover:bg-purple-500/10 font-medium transition-all text-sm sm:text-base"
               >
@@ -107,7 +107,7 @@ export default function Hero() {
               <div className="absolute -inset-4 rounded-full bg-gradient-to-r from-blue-500 via-purple-500 to-indigo-500 opacity-60 blur-2xl animate-pulse" />
               <div className="relative w-56 h-56 sm:w-72 sm:h-72 lg:w-80 lg:h-80 rounded-full overflow-hidden border-2 border-purple-500/50 shadow-2xl shadow-purple-500/20">
                 <Image
-                  src="/images/profile.jpeg"
+                  src="/images/profile2.png"
                   alt="Harshvardhan Bohare"
                   fill
                   className="object-cover"
