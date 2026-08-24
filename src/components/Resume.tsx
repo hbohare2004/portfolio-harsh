@@ -37,12 +37,12 @@ export default function Resume() {
               <div className="flex items-center justify-center sm:justify-start gap-3">
                 <HiDocumentText className="w-5 h-5 text-purple-400 flex-shrink-0" />
                 <span className="text-white font-medium text-sm sm:text-base truncate">
-                  Harsh_s_Resume_AI.pdf
+                  Harsh_s_Resume.pdf
                 </span>
               </div>
               <div className="flex gap-2 w-full sm:w-auto">
                 <a
-                  href="/images/Harsh_s_Resume_AI.pdf"
+                  href="/images/Harsh_s_Resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex-1 sm:flex-none flex items-center justify-center gap-1.5 px-3 py-1.5 rounded-lg bg-white/5 border border-white/10 text-sm text-gray-300 hover:text-white hover:border-purple-500/30 transition-all"
@@ -51,7 +51,7 @@ export default function Resume() {
                   Open
                 </a>
                 <a
-                  href="/images/Harsh_s_Resume_AI.pdf"
+                  href="/images/Harsh_s_Resume.pdf"
                   download
                   className="flex-1 sm:flex-none flex items-center justify-center gap-1.5 px-3 py-1.5 rounded-lg bg-gradient-to-r from-blue-500 to-purple-600 text-sm text-white font-medium hover:shadow-lg hover:shadow-purple-500/25 transition-all"
                 >
@@ -63,7 +63,7 @@ export default function Resume() {
 
             <div className="relative bg-gray-900/50 p-2 sm:p-4">
               <iframe
-                src="/images/Harsh_s_Resume_AI.pdf"
+                src="/images/Harsh_s_Resume.pdf"
                 className="w-full h-[400px] sm:h-[500px] lg:h-[600px] rounded-lg border border-white/5"
                 title="Resume Preview"
               />
@@ -74,7 +74,7 @@ export default function Resume() {
             <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href="/images/Harsh_s_Resume_AI.pdf"
+              href="/images/Harsh_s_Resume.pdf"
               download
               className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 rounded-xl bg-gradient-to-r from-blue-500 to-purple-600 text-white font-medium hover:shadow-lg hover:shadow-purple-500/25 transition-all text-sm sm:text-base"
             >
